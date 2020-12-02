@@ -1,0 +1,11 @@
+language: c
+compiler: gcc
+script:
+- gcc -o code-point-to-utf8 code-point-to-utf8.c
+- gcc -o split-string-at-index split-string-at-index.c
+- gcc -o print-max-note-lengths print-max-note-lengths.c
+- gcc -o get-note-index get-note-index.c
+- gcc -o get-chord-index get-chord-index.c
+- gcc -o split-note-and-chord split-note-and-chord.c
+- gcc -o print-chord print-chord.c
+- gcc -o chord chord.c
